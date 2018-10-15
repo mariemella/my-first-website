@@ -1,0 +1,111 @@
+/*div {
+	border: 1px solid black;
+}*/
+body {
+	background-color:  !important;
+}
+
+.row {
+	padding-left: 20px;
+}
+
+#cat {
+	width: 350px;
+	height: 350px;
+	margin-left: 50px;
+}
+
+
+.box1 {
+	font-size: 25px;
+	font-family: Andale Mono,AndaleMono,monospace; 
+	padding-top: 25px;
+	padding-bottom: 10px;
+}
+
+.box2 {
+	font-size: 22px;
+	font-family: Andale Mono,AndaleMono,monospace; 
+	
+}
+
+.box3 {
+	font-size: 22px;
+	font-family: Andale Mono,AndaleMono,monospace; 
+	padding-top: 100px;
+	padding-bottom: 10px;
+}
+
+.box2 span  {
+   position: absolute;
+   bottom: 0;
+   right: 0;
+
+}
+
+a{
+	text-decoration:none !important;
+	color: black !important;
+}	
+		
+a:hover{
+	background-color: #FAC838/*#FBD204*/;
+	color: white !important;
+	text-decoration: none !important;
+	padding: 5px;
+		}
+
+.name {
+	font-size: 50px;
+	display: inline-block;
+}
+
+
+@media (max-width: 960px){
+
+body {
+	background-color: rgb(196, 206, 195)  !important;
+}
+
+#cat{
+	display: none;
+	}
+.box1 {
+	font-size: 22px;
+	font-family: Andale Mono,AndaleMono,monospace; 
+}
+.box2 {
+	font-size: 18px;
+	font-family: Andale Mono,AndaleMono,monospace; 	
+	padding-bottom: 20px;
+}
+
+.box3 {
+	font-size: 18px;
+	font-family: Andale Mono,AndaleMono,monospace; 
+	padding-top: 10px;
+
+}
+
+.box2 span  {
+   position: relative;
+   
+}
+
+.name {
+	font-size: 40px;
+	display: inline-block;
+}
+a{
+	text-decoration:none !important;
+	color: white;
+}	
+		
+a:hover{
+	background-color: black;
+	font-color: white;
+	text-decoration: none !important;
+	padding: 5px;
+		}
+
+}
