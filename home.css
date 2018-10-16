@@ -2,7 +2,7 @@
 	border: 1px solid black;
 }*/
 body {
-	background-color:  !important;
+	background-color: #E93F33 !important;
 }
 
 .row {
@@ -28,7 +28,6 @@ body {
 
 
 
-
 a{
 	text-decoration:none !important;
 	color: black !important;
@@ -42,8 +41,10 @@ a:hover{
 		}
 
 .name {
-	font-size: 30px;
+	font-size: 70px;
 	display: inline-block;
+	color: white !important;
+	padding-top: 40px;
 }
 
 
